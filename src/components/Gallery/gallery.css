@@ -1,0 +1,15 @@
+#gallery{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    height: 100vh;
+}
+#gallery h2{
+ color: rgb(210, 191, 191);
+}
+.gallery-image{
+    width:500px;
+    height:100px;
+
+}

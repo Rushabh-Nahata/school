@@ -1,0 +1,38 @@
+.my-info .box{
+  display: flex;
+  /* width: 90%; */
+/* flex-direction: row; */
+  justify-content: space-evenly;
+  margin: 2% 0;
+  text-align: center;
+  /* padding: 1/%; */
+  /* margin: 1%; */
+ }
+
+ .my-info .box .phone-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 2%;
+  padding: 2%;
+
+ }
+ .box .contact-image-holder{
+  width: 100px;
+  height: 100px;
+ }
+
+ .box .contact-image-holder img{
+  width: 100%;
+  height: 100%;
+ }
+
+ #contact .contact-container{
+  width: 100%;
+ }
+.request .get-in-touch .row {
+  padding: 10px 10px ;
+  justify-content: space-evenly;
+  /* background-color: aqua; */
+  margin:10px;
+}

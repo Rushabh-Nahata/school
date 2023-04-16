@@ -1,0 +1,36 @@
+.follow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  padding: 40px;
+}
+.result img {
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  border-radius: 30px;
+}
+.follow .img-holder {
+    /* border: 1px solid black; */
+  height: 80px;
+  width: 80px;
+}
+.follow .img-holder img{
+  height: 100%;
+  width: 100%;
+}
+.main h2 {
+  margin: 0;
+}
+.more-events{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    margin:10px 100px 10px 10px;
+}
+.follow .img-holder :hover{
+    /* background-color:yellow; */
+    border: 5px solid rgb(255, 193, 77);
+}
